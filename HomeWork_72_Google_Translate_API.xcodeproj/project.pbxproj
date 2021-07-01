@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8A1A749F267CAFBA00B507F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A749E267CAFBA00B507F6 /* AppDelegate.swift */; };
-		8A1A74A1267CAFBA00B507F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A74A0267CAFBA00B507F6 /* SceneDelegate.swift */; };
-		8A1A74A3267CAFBA00B507F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A74A2267CAFBA00B507F6 /* ViewController.swift */; };
-		8A1A74A6267CAFBA00B507F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A74A4267CAFBA00B507F6 /* Main.storyboard */; };
 		8A1A74A9267CAFBA00B507F6 /* HomeWork_72_Google_Translate_API.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A74A7267CAFBA00B507F6 /* HomeWork_72_Google_Translate_API.xcdatamodeld */; };
 		8A1A74AB267CAFC900B507F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A74AA267CAFC900B507F6 /* Assets.xcassets */; };
 		8A1A74AE267CAFC900B507F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A74AC267CAFC900B507F6 /* LaunchScreen.storyboard */; };
+		8A1A74BA267CB04500B507F6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A74B8267CB04500B507F6 /* Main.swift */; };
+		8A1A74BB267CB04500B507F6 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A74B9267CB04500B507F6 /* Main.xib */; };
+		8A1A74C4267CCA8100B507F6 /* SelectLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A74C2267CCA8000B507F6 /* SelectLanguages.swift */; };
+		8A1A74C5267CCA8100B507F6 /* SelectLanguages.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A74C3267CCA8000B507F6 /* SelectLanguages.xib */; };
+		8A1A74C9267DDD6200B507F6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1A74C7267DDD6200B507F6 /* TableViewCell.swift */; };
+		8A1A74CA267DDD6200B507F6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A74C8267DDD6200B507F6 /* TableViewCell.xib */; };
+		B9E46DEF928DAE64222A34B5 /* Pods_HomeWork_72_Google_Translate_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B14472144FFD4DA65A168EE /* Pods_HomeWork_72_Google_Translate_API.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DE8715B1D6988ACD1BC4350 /* Pods-HomeWork_72_Google_Translate_API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork_72_Google_Translate_API.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork_72_Google_Translate_API/Pods-HomeWork_72_Google_Translate_API.debug.xcconfig"; sourceTree = "<group>"; };
+		3B14472144FFD4DA65A168EE /* Pods_HomeWork_72_Google_Translate_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork_72_Google_Translate_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B33C5209A17CCDD49B5D5E4 /* Pods-HomeWork_72_Google_Translate_API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork_72_Google_Translate_API.release.xcconfig"; path = "Target Support Files/Pods-HomeWork_72_Google_Translate_API/Pods-HomeWork_72_Google_Translate_API.release.xcconfig"; sourceTree = "<group>"; };
 		8A1A749B267CAFBA00B507F6 /* HomeWork_72_Google_Translate_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork_72_Google_Translate_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1A749E267CAFBA00B507F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A1A74A0267CAFBA00B507F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A1A74A2267CAFBA00B507F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A1A74A5267CAFBA00B507F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A1A74A8267CAFBA00B507F6 /* HomeWork_72_Google_Translate_API.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeWork_72_Google_Translate_API.xcdatamodel; sourceTree = "<group>"; };
 		8A1A74AA267CAFC900B507F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1A74AD267CAFC900B507F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A1A74AF267CAFC900B507F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1A74B8267CB04500B507F6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		8A1A74B9267CB04500B507F6 /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		8A1A74C2267CCA8000B507F6 /* SelectLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguages.swift; sourceTree = "<group>"; };
+		8A1A74C3267CCA8000B507F6 /* SelectLanguages.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectLanguages.xib; sourceTree = "<group>"; };
+		8A1A74C7267DDD6200B507F6 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8A1A74C8267DDD6200B507F6 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9E46DEF928DAE64222A34B5 /* Pods_HomeWork_72_Google_Translate_API.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				8A1A749D267CAFBA00B507F6 /* HomeWork_72_Google_Translate_API */,
 				8A1A749C267CAFBA00B507F6 /* Products */,
+				E1F4C163EC8227A9C21378C0 /* Pods */,
+				D75EF0DF9003DEC6AFC3E205 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +72,35 @@
 			isa = PBXGroup;
 			children = (
 				8A1A749E267CAFBA00B507F6 /* AppDelegate.swift */,
-				8A1A74A0267CAFBA00B507F6 /* SceneDelegate.swift */,
-				8A1A74A2267CAFBA00B507F6 /* ViewController.swift */,
-				8A1A74A4267CAFBA00B507F6 /* Main.storyboard */,
+				8A1A74C7267DDD6200B507F6 /* TableViewCell.swift */,
+				8A1A74C8267DDD6200B507F6 /* TableViewCell.xib */,
 				8A1A74AA267CAFC900B507F6 /* Assets.xcassets */,
 				8A1A74AC267CAFC900B507F6 /* LaunchScreen.storyboard */,
 				8A1A74AF267CAFC900B507F6 /* Info.plist */,
 				8A1A74A7267CAFBA00B507F6 /* HomeWork_72_Google_Translate_API.xcdatamodeld */,
+				8A1A74B8267CB04500B507F6 /* Main.swift */,
+				8A1A74B9267CB04500B507F6 /* Main.xib */,
+				8A1A74C2267CCA8000B507F6 /* SelectLanguages.swift */,
+				8A1A74C3267CCA8000B507F6 /* SelectLanguages.xib */,
 			);
 			path = HomeWork_72_Google_Translate_API;
+			sourceTree = "<group>";
+		};
+		D75EF0DF9003DEC6AFC3E205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B14472144FFD4DA65A168EE /* Pods_HomeWork_72_Google_Translate_API.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F4C163EC8227A9C21378C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DE8715B1D6988ACD1BC4350 /* Pods-HomeWork_72_Google_Translate_API.debug.xcconfig */,
+				4B33C5209A17CCDD49B5D5E4 /* Pods-HomeWork_72_Google_Translate_API.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A1A74B2267CAFC900B507F6 /* Build configuration list for PBXNativeTarget "HomeWork_72_Google_Translate_API" */;
 			buildPhases = (
+				E2F373EFD94ECC1F8DE763AE /* [CP] Check Pods Manifest.lock */,
 				8A1A7497267CAFBA00B507F6 /* Sources */,
 				8A1A7498267CAFBA00B507F6 /* Frameworks */,
 				8A1A7499267CAFBA00B507F6 /* Resources */,
+				AD2CB5015B99BF0D7DDEBA0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,36 +163,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A1A74AE267CAFC900B507F6 /* LaunchScreen.storyboard in Resources */,
+				8A1A74CA267DDD6200B507F6 /* TableViewCell.xib in Resources */,
+				8A1A74BB267CB04500B507F6 /* Main.xib in Resources */,
 				8A1A74AB267CAFC900B507F6 /* Assets.xcassets in Resources */,
-				8A1A74A6267CAFBA00B507F6 /* Main.storyboard in Resources */,
+				8A1A74C5267CCA8100B507F6 /* SelectLanguages.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD2CB5015B99BF0D7DDEBA0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork_72_Google_Translate_API/Pods-HomeWork_72_Google_Translate_API-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork_72_Google_Translate_API/Pods-HomeWork_72_Google_Translate_API-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork_72_Google_Translate_API/Pods-HomeWork_72_Google_Translate_API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F373EFD94ECC1F8DE763AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork_72_Google_Translate_API-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A1A7497267CAFBA00B507F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A1A74A3267CAFBA00B507F6 /* ViewController.swift in Sources */,
+				8A1A74C9267DDD6200B507F6 /* TableViewCell.swift in Sources */,
+				8A1A74BA267CB04500B507F6 /* Main.swift in Sources */,
 				8A1A749F267CAFBA00B507F6 /* AppDelegate.swift in Sources */,
-				8A1A74A1267CAFBA00B507F6 /* SceneDelegate.swift in Sources */,
 				8A1A74A9267CAFBA00B507F6 /* HomeWork_72_Google_Translate_API.xcdatamodeld in Sources */,
+				8A1A74C4267CCA8100B507F6 /* SelectLanguages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8A1A74A4267CAFBA00B507F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A1A74A5267CAFBA00B507F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8A1A74AC267CAFC900B507F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,11 +359,13 @@
 		};
 		8A1A74B3267CAFC900B507F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE8715B1D6988ACD1BC4350 /* Pods-HomeWork_72_Google_Translate_API.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HomeWork_72_Google_Translate_API/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,11 +379,13 @@
 		};
 		8A1A74B4267CAFC900B507F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B33C5209A17CCDD49B5D5E4 /* Pods-HomeWork_72_Google_Translate_API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HomeWork_72_Google_Translate_API/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
